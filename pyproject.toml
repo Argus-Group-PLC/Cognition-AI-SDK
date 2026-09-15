@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "argus-cognition-ai"
+version = "0.1.0"
+description = "Official Python SDK for the Cognition AI API"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "httpx>=0.24.0",
+    "pydantic>=2.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/qwertyguy16/Cognition-AI-SDK"
+
+[tool.hatch.build.targets.wheel]
+packages = ["cognition"]
