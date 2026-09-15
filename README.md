@@ -2,6 +2,8 @@
 
 The official Python SDK for the Cognition AI API. This library provides convenient access to the Cognition AI REST API from Python applications. It includes both synchronous and asynchronous clients and utilizes Pydantic for strong typing and validation.
 
+For the full REST API documentation, please visit the [Official Cognition AI Documentation](https://docs.argusgroup.co.uk/docs/cognition).
+
 ## Installation
 
 You can install the package via `pip`:

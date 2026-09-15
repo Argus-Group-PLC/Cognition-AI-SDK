@@ -15,6 +15,7 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/qwertyguy16/Cognition-AI-SDK"
+Documentation = "https://docs.argusgroup.co.uk/docs/cognition"
 
 [tool.hatch.build.targets.wheel]
 packages = ["cognition"]
