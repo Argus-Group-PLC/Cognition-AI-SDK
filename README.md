@@ -14,7 +14,8 @@ pip install argus-cognition-ai
 
 ## Configuration
 
-To use the SDK, you need a Cognition API key. 
+To use the SDK, you need a Cognition API key.
+You can generate a API key [Here](https://argusgroup.co.uk/developer). Please note, a registered account is required.
 
 The easiest way to provide the key is to set it as an environment variable:
 ```bash
